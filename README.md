@@ -1,46 +1,94 @@
-**Use your preferred IDE**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+# 🌍 Meteor Madness – Asteroid Impact Visualization & Mitigation Tool
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**Team:** AstroBhiyanta | **College:** Gyan Ganga Institute of Technology and Sciences (B.Tech – Data Science)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**Members:** Tanu · Sakshi · Nishtha · Sneha
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🚀 Live Demo
+
+🔗 [Deployed Website](https://your-deployed-link.vercel.app)
+
+📹 [Prototype Video Demo](https://your-video-link.com)
+
+---
+
+## 📌 Problem
+
+NASA tracks **30,000+ Near-Earth Objects**, but data is **scattered and complex**. Policymakers, scientists, and the public lack a **clear, unified tool** for asteroid risk simulation and mitigation planning.
+
+---
+
+## 💡 Solution
+
+**Meteor Madness** provides:
+
+* 🌐 **3D Impact Simulation** (blast, shockwave, tsunamis)
+* 🛰️ **Mitigation Strategy Testing** (kinetic impactor, nuclear, tractor, evacuation)
+* 🕶️ **AR/VR Awareness Mode**
+* 📊 **Report Export & Collaboration**
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React + Tailwind + Three.js
+* **Backend:** FastAPI + Firebase
+* **Data/ML:** NASA APIs + USGS datasets + Scikit-learn
+* **AR/VR:** WebXR + A-Frame
+* **Hosting:** Vercel
+
+---
+
+## ⚡ How to Run Locally
+
+### 1. Clone Repo
+
+```bash
+git clone https://github.com/your-repo/meteor-madness.git
+cd meteor-madness
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Frontend
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+App runs at: `http://localhost:5173/`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 4. Run Backend (if using FastAPI)
 
-**Use GitHub Codespaces**
+```bash
+cd backend
+uvicorn main:app --reload
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+API runs at: `http://127.0.0.1:8000/`
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📊 Impact
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* **Policymakers:** Faster, data-driven decisions
+* **Public:** Awareness & readiness via AR/VR
+* **Scientists:** Integrated datasets for simulation
 
-# astrobhiyanta-planetary-defense
-# astrobhiyanta-planetary-defense-2025
+---
+
+## 🔮 Future Scope
+
+* AI-based asteroid threat ranking
+* Global collaboration hub
+* Expansion beyond asteroids to comets, debris, solar storms
+
+---
