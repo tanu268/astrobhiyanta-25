@@ -10,9 +10,9 @@
 
 ## 🚀 Live Demo
 
-🔗 [Deployed Website](https://your-deployed-link.vercel.app)
+🔗 [Deployed Website](https://silver-torrone-a5cb95.netlify.app/)
 
-📹 [Prototype Video Demo](https://your-video-link.com)
+
 
 ---
 
